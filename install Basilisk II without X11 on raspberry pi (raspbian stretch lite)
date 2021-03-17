@@ -71,17 +71,17 @@ wget -O ~/mkmacdisk.sh https://github.com/djdarien/macpi/blob/main/mkmacdisk.sh
 
 
 ```
-creating a mac disk image with easy mkmacdisk.sh script as follows:
+creating a mac disk image is easy with mkmacdisk.sh script as follows:
 
-(EXAMPLE usage:
+sh ./mkmacdisk.sh 
+```
+MacHDD
+```
+> name should be MacHDD
 
-$ sh ./mkmacdisk.sh <name> <size>
+500
 ```
-name should be MacHDD
-```
-size should be 500 , quadra900 supported 500MB , we will be using that for Sytem 8.1
-```
-
+> size should be 500 , quadra900 supported 500MB , we will be using that for Sytem 8.1
 ```
 echo "rom    /home/pi/Quadra-650.ROM
 disk   /home/pi/System753.iso
