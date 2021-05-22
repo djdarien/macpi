@@ -103,11 +103,15 @@ model 14
 ramsize 67108864
 
 ```
+
+```
 disk   /home/pi/MacHDD.dsk" | tee -a ~/.basilisk_ii_prefs
 ```
 
 ```
 Basilisk
+
+
 ```
 To install Sytem 8.1 boot up Basilisk and then proceed to install 8.1 as normal and install it to MacHDD disk that we created earlier with easy script.
 
