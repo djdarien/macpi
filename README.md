@@ -101,6 +101,8 @@ frameskip 0
 cpu 4
 model 14
 ramsize 67108864
+
+```
 disk   /home/pi/MacHDD.dsk" | tee -a ~/.basilisk_ii_prefs
 ```
 
