@@ -109,7 +109,7 @@ disk   /home/pi/MacHDD.dsk" | tee -a ~/.basilisk_ii_prefs
 ```
 
 ```
-Basilisk
+BasiliskII
 
 
 ```
