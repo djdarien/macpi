@@ -5,7 +5,9 @@ Works with PI3B and later
 
 Uses basilisk II emulator.
 
-Recommended to install rasbian lite , otherwise the whole without a desktop (X11) is kinda of useless :)
+Recommended to install rasbian lite as distro choice, otherwise the whole without a desktop (X11) is kinda of useless :)
+
+
 
 install Basilisk II without a full desktop (X11) on raspberry pi ( using raspbian stretch lite for distro)
 ===
@@ -88,14 +90,13 @@ MacHDD
 ```
 
 
-> size should be 500 , quadra900 supported 500MB , we will be using that for Sytem 8.1
+> size should be 500 , quadra900 supported 500MB since that is the model 14 we will use in our prefs file to match the gestalt ID , even though we will be using Sytem 8.1 which supports larger volumes such as 4GB i found the 500MB to be stable so far. Please feel free to experiment! 
 
 ```
 500
 ```
 ```
 echo "rom    /home/pi/Quadra-650.ROM
-disk   /home/pi/System753.iso
 disk   /home/pi/MacOS8_1.iso
 frameskip 0
 cpu 4
@@ -108,6 +109,10 @@ ramsize 67108864
 disk   /home/pi/MacHDD.dsk" | tee -a ~/.basilisk_ii_prefs
 ```
 
+Setup is finished lets run our newly created Macintosh system within BasiliskII by running execute command , you may add this command to your /etc/rc.local file 
+```
+```
+
 ```
 BasiliskII
 
@@ -115,4 +120,4 @@ BasiliskII
 ```
 To install Sytem 8.1 boot up Basilisk and then proceed to install 8.1 as normal and install it to MacHDD disk that we created earlier with easy script.
 
-> after installation finished, you can remove both isos from `~/.basilisk_ii_prefs`  , the System7.5.3 was for us to boot the machine.
+> after installation finished, you can remove the MacOS8_1.iso  from `~/.basilisk_ii_prefs`  , this was for us to boot and install Mac OS onto the machine.
