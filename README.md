@@ -97,6 +97,9 @@ MacHDD
 ```
 500
 ```
+> OPTIONAL Ready made hard drive for download
+```
+https://mega.nz/file/x3hGRCRb#TB3O35X9jwj_CP_LM_NUyD_eqIw4_UY3YBzc2h1TS9E
 ```
 echo "rom    /home/pi/Quadra-650.ROM
 disk   /home/pi/MacOS8_1.iso
