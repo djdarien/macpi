@@ -81,7 +81,11 @@ cd /home/pi
 wget -O ~/mkmacdisk.sh https://github.com/djdarien/macpi/blob/main/mkmacdisk.sh
 ```
 
-
+You will now need a hard disk image to boot, you can create your own or download the ready made one below
+> OPTIONAL Ready made hard drive for download
+```
+https://mega.nz/file/x3hGRCRb#TB3O35X9jwj_CP_LM_NUyD_eqIw4_UY3YBzc2h1TS9E
+```
 creating a mac disk image is easy using the mkmacdisk.sh script as follows:
 ```
 sh ./mkmacdisk.sh 
@@ -97,9 +101,8 @@ MacHDD
 ```
 500
 ```
-> OPTIONAL Ready made hard drive for download
-```
-https://mega.nz/file/x3hGRCRb#TB3O35X9jwj_CP_LM_NUyD_eqIw4_UY3YBzc2h1TS9E
+
+
 ```
 echo "rom    /home/pi/Quadra-650.ROM
 disk   /home/pi/MacOS8_1.iso
@@ -114,11 +117,12 @@ ramsize 67108864
 disk   /home/pi/MacHDD.dsk" | tee -a ~/.basilisk_ii_prefs
 ```
 
-Setup is finished lets run our newly created Macintosh system within BasiliskII by running execute command , you may add this command to your /etc/rc.local file 
+> Setup is finished lets run our newly created Macintosh system within BasiliskII by running execute command , you may add this command to your /etc/rc.local file 
 
 ```
 BasiliskII
 ```
-To install Sytem 8.1 boot up Basilisk and then proceed to install 8.1 as normal and install it to MacHDD disk that we created earlier with easy script.
+
+> To install Sytem 8.1 boot up Basilisk and then proceed to install 8.1 as normal and install it to MacHDD disk that we created earlier with easy script.
 
 > after installation finished, you can remove the MacOS8_1.iso  from `~/.basilisk_ii_prefs`  , this was for us to boot and install Mac OS onto the machine.
