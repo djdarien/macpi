@@ -1,5 +1,5 @@
-# macpi
-Mac OS 8.1 on Raspberry Pi without a full desktop!
+Mac Pi !!
+Mac OS 8.1 on a Raspberry Pi without a full desktop!
 
 Works with Pi3B or later
 
