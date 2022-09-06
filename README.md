@@ -1,7 +1,7 @@
 # macpi
 Mac OS 8.1 on Raspberry Pi without a full desktop!
 
-Works with PI3B and later
+Works with Pi3B or later
 
 Uses basilisk II emulator.
 
@@ -110,13 +110,9 @@ disk   /home/pi/MacHDD.dsk" | tee -a ~/.basilisk_ii_prefs
 ```
 
 Setup is finished lets run our newly created Macintosh system within BasiliskII by running execute command , you may add this command to your /etc/rc.local file 
-```
-```
 
 ```
 BasiliskII
-
-
 ```
 To install Sytem 8.1 boot up Basilisk and then proceed to install 8.1 as normal and install it to MacHDD disk that we created earlier with easy script.
 
