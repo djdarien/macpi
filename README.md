@@ -9,7 +9,8 @@ Mac OS 8.1 on a Raspberry Pi without a full desktop!
 
 *Recommended to install rasbian lite as distro choice, otherwise the whole without a desktop (X11) is kinda of useless :)
 
-AUTOMATED FULL INSTALL SCRIPT : 
+AUTOMATED FULL INSTALL SCRIPT :  https://github.com/djdarien/macpi/blob/780a5938b44f3c93f9247d79024a901998aceb90/macpi_auto_installer.sh
+
 This can be used as alternative or if it doesnt work follow the guide below :) 
 
 
