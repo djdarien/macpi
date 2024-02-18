@@ -72,7 +72,7 @@ wget -O ~/MacOS8_1.iso "https://winworldpc.com/download/7724c394-e280-9362-c382-
 ```
 
 ```
-wget -O ~/Quadra-650.ROM https://github.com/macmade/Macintosh-ROMs/raw/master/Quadra-650.ROM
+wget -O ~/Quadra-650.ROM https://github.com/macmade/Macintosh-ROMs/raw/main/Quadra-650.ROM
 ```
 
 ```
@@ -81,7 +81,7 @@ cd /home/pi
 ```
 
 ```
-wget -O ~/mkmacdisk.sh https://github.com/djdarien/macpi/blob/main/mkmacdisk.sh
+wget -O ~/mkmacdisk.sh https://github.com/djdarien/macpi/raw/main/mkmacdisk.sh
 ```
 
 You will now need a hard disk image to boot, you can create your own or download the ready made one below
