@@ -3,15 +3,17 @@ Mac Pi
 Mac OS 8.1 on a Raspberry Pi without a full desktop!
 ===
 
-Works with Pi3B or later
+*Works with Pi3B or later
 
-Uses basilisk II emulator.
+*Uses basilisk II emulator.
 
-Recommended to install rasbian lite as distro choice, otherwise the whole without a desktop (X11) is kinda of useless :)
+*Recommended to install rasbian lite as distro choice, otherwise the whole without a desktop (X11) is kinda of useless :)
+
+AUTOMATED FULL INSTALL SCRIPT : 
+This can be used as alternative or if it doesnt work follow the guide below :) 
 
 
-
-install Basilisk II without a full desktop (X11) on raspberry pi ( using raspbian stretch lite for distro)
+Install Basilisk II without a full desktop (X11) on raspberry pi ( using raspbian stretch lite for distro)
 ===
 
 ```
